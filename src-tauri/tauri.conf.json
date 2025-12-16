@@ -8,18 +8,19 @@
     "windows": [
       {
         "label": "main",
+        "create": false,
         "title": "Messly",
         "width": 1200,
         "height": 800,
         "resizable": true,
-        "url": "https://www.messenger.com"
+        "url": "https://www.messenger.com",
+          "dragDropEnabled": false
       }
     ],
     "security": {
       "csp": null
     }
   },
-
   "bundle": {
     "active": true,
     "targets": "all",
